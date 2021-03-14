@@ -38,3 +38,17 @@ There will be a dashboard to manage ads.
 1. Viewer: Can see all things in the dashboard but can't add, edit or delete anything
 1. Creator: Can create, edit and delete content created by him/her but can't publish
 1. Admin: Can create, edit and delete content created by anyone and by himself/herself and can publish them also. Admin can create viewer account and creator accounts.
+
+### Tasks
+- Create an admin on database migrate from environment variable
+- Login page. Redirect to dashboard after login. Otherwise show error
+- Divide the layout into navbar, sidebar and main area
+- Design navbar
+- Design sidebar
+- Create a database migration for ad types with fields id and name (unique)
+- Create a database migration for ads with fields id, name (unique), image_url, ad_type.
+- Create a database migration for ad groups with fields id and name (unique). Add soft delete.There will be many to many relationship between ads and ad groups
+- Create a simple layout of an ad with and link
+- Create a route to serve single ad
+- Create a route to serve ads from single ad group
+- Create a JavaScript widget
