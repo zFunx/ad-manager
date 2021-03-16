@@ -5,10 +5,6 @@ Status: Not ready to use
 Laravel project for dashboard for managing ads.
 
 ## Setup
-- Install Composer and Node on your system
-- Intsall Composer dependecies: `$composer install`
-- Install Node Dependencies: `$npm install`
-- Compile all CSS and JS: `$npm run dev`
 - Configure Database in `.env` file:
 ```
 DB_CONNECTION=mysql
@@ -17,7 +13,17 @@ DB_PORT=3306
 DB_DATABASE=ad_manager
 DB_USERNAME=root
 DB_PASSWORD=
+
+ADMIN_NAME=name
+ADMIN_EMAIL=email
+ADMIN_USERNAME=username
+ADMIN_PASSWORD=password
 ```
+- Install Composer and Node on your system
+- Intsall Composer dependecies: `$composer install`
+- Install Node Dependencies: `$npm install`
+- Compile all CSS and JS: `$npm run dev`
+
 - Migrate Database: `$php artisan migrate`
 
 ## CSS Framework
